@@ -127,9 +127,6 @@ private TestService testService;
 
 课程所有源码提供免费下载：[下载地址](https://gitee.com/eson15/springboot_study)。
 
-> 欢迎关注我的为微信公众号：武哥聊编程
-
-
 
 ## 4. 适合阅读的人群
 
@@ -178,9 +175,6 @@ private TestService testService;
 * 第16课：Spring Boot中集成Shiro
 * 第17课：Spring Boot中结成Lucence
 * 第18课：Spring Boot搭建实际项目开发中的架构
-
->欢迎关注我的为微信公众号：武哥聊编程
-
 
 
 # 第01课：Spring Boot开发环境搭建和项目启动
@@ -289,8 +283,6 @@ server:
 
 本节我们快速学习了如何在 IDEA 中导入 jdk，以及使用 IDEA 如何配置 maven 和编码，如何快速的创建和启动 Spring Boot 工程。IDEA 对 Spring Boot 的支持非常友好，建议大家使用 IDEA 进行 Spring Boot 的开发，从下一课开始，我们真正进入 Spring Boot 的学习中。
 课程源代码下载地址：[戳我下载](https://gitee.com/eson15/springboot_study)
-> 欢迎关注我的为微信公众号：武哥聊编程
-
 
 
 # 第02课：Spring Boot返回Json数据及数据封装
@@ -662,7 +654,6 @@ public class JsonResultController {
 
 本节主要对 Spring Boot 中 json 数据的返回做了详细的分析，从 Spring Boot 默认的 jackson 框架到阿里巴巴的 fastJson 框架，分别对它们的配置做了相应的讲解。另外，结合实际项目情况，总结了实际项目中使用的 json 封装结构体，加入了状态码和提示信息，使得返回的 json 数据信息更加完整。
 课程源代码下载地址：[戳我下载](https://gitee.com/eson15/springboot_study)
-> 欢迎关注我的为微信公众号：武哥聊编程
 
 
 
@@ -817,8 +808,6 @@ public class TestController {
 
 本节课主要对 slf4j 做了一个简单的介绍，并且对 Spring Boot 中如何使用 slf4j 输出日志做了详细的说明，着重分析了 `logback.xml` 文件中对日志相关信息的配置，包括日志的不同级别。最后针对这些配置，在代码中使用 Logger 打印出一些进行测试。在实际项目中，这些日志都是排查问题的过程中非常重要的资料。
 课程源代码下载地址：[戳我下载](https://gitee.com/eson15/springboot_study)
-> 欢迎关注我的为微信公众号：武哥聊编程
-
 
 
 # 第04课：Spring Boot中的项目属性配置
@@ -968,7 +957,6 @@ spring:
 
 本节课主要讲解了 Spring Boot 中如何在业务代码中读取相关配置，包括单一配置和多个配置项，在微服务中，这种情况非常常见，往往会有很多其他微服务需要调用，所以封装一个配置类来接收这些配置是个很好的处理方式。除此之外，例如数据库相关的连接参数等等，也可以放到一个配置类中，其他遇到类似的场景，都可以这么处理。最后介绍了开发环境和生产环境配置的快速切换方式，省去了项目部署时，诸多配置信息的修改。
 课程源代码下载地址：[戳我下载](https://gitee.com/eson15/springboot_study)
-> 欢迎关注我的为微信公众号：武哥聊编程
 
 
 
@@ -1147,7 +1135,6 @@ public String testRequestBody(@RequestBody User user) {
 本节课主要讲解了 Spring Boot 中对 MVC 的支持，分析了 `@RestController`、 `@RequestMapping`、`@PathVariable`、 `@RequestParam` 和 `@RequestBody` 四个注解的使用方式，由于 `@RestController` 中集成了 `@ResponseBody` 所以对返回 json 的注解不再赘述。以上四个注解是使用频率很高的注解，在所有的实际项目中基本都会遇到，要熟练掌握。
 
 课程源代码下载地址：[戳我下载](https://gitee.com/eson15/springboot_study)
-> 欢迎关注我的为微信公众号：武哥聊编程
 
 
 
@@ -1229,7 +1216,7 @@ public class SwaggerConfig {
                 // 设置页面标题
                 .title("Spring Boot集成Swagger2接口总览")
                 // 设置接口描述
-                .description("跟武哥一起学Spring Boot第06课")
+                .description("学习Spring Boot第06课")
                 // 设置联系方式
                 .contact("倪升武，" + "CSDN：http://blog.csdn.net/eson_15")
                 // 设置版本
@@ -1340,7 +1327,6 @@ public class TestController {
 OK，本节课详细分析了 Swagger 的优点，以及 Spring Boot 如何集成 Swagger2，包括配置，相关注解的讲解，涉及到了实体类和接口类，以及如何使用。最后通过页面测试，体验了 Swagger 的强大之处，基本上是每个项目组中必备的工具之一，所以要掌握该工具的使用，也不难。
 
 课程源代码下载地址：[戳我下载](https://gitee.com/eson15/springboot_study)
-> 欢迎关注我的为微信公众号：武哥聊编程
 
 
 
@@ -1534,7 +1520,7 @@ Thymeleaf 还有很多其他用法，这里就不总结了，具体的可以参�
 Thymeleaf 在 Spring Boot 中使用非常广泛，本节课主要分析了 thymeleaf 的优点，以及如何在 Spring Boot 中集成并使用 thymeleaf 模板，包括依赖、配置，相关数据的获取、以及一些注意事项等等。最后列举了一些 thymeleaf 中常用的标签，在实际项目中多使用，多查阅就能熟练掌握，thymeleaf 中的一些标签或者方法不用死记硬背，用到什么去查阅什么，关键是要会在 Spring Boot 中集成，用的多了就熟能生巧。
 
 课程源代码下载地址：[戳我下载](https://gitee.com/eson15/springboot_study)
-> 欢迎关注我的为微信公众号：武哥聊编程
+
 
 
 
@@ -1802,7 +1788,6 @@ public class ExceptionController {
 本节课程主要讲解了Spring Boot 的全局异常处理，包括异常信息的封装、异常信息的捕获和处理，以及在实际项目中，我们用到的自定义异常枚举类和业务异常的捕获与处理，在项目中运用的非常广泛，基本上每个项目中都需要做全局异常处理。
 
 课程源代码下载地址：[戳我下载](https://gitee.com/eson15/springboot_study)
-> 欢迎关注我的为微信公众号：武哥聊编程
 
 
 
@@ -2035,7 +2020,6 @@ public class LogAspectHandler {
 本节课针对 Spring Boot 中的切面 AOP 做了详细的讲解，主要介绍了 Spring Boot 中 AOP 的引入，常用注解的使用，参数的使用，以及常用 api 的介绍。AOP 在实际项目中很有用，对切面方法执行前后都可以根据具体的业务，做相应的预处理或者增强处理，同时也可以用作异常捕获处理，可以根据具体业务场景，合理去使用 AOP。
 
 课程源代码下载地址：[戳我下载](https://gitee.com/eson15/springboot_study)
-> 欢迎关注我的为微信公众号：武哥聊编程
 
 
 
@@ -2209,7 +2193,6 @@ User getUser(Long id);
 本节课主要系统的讲解了 Spring Boot 集成 MyBatis 的过程，分为基于 xml 形式和基于注解的形式来讲解，通过实际配置手把手讲解了 Spring Boot 中 MyBatis 的使用方式，并针对注解方式，讲解了常见的问题已经解决方式，有很强的实战意义。在实际项目中，建议根据实际情况来确定使用哪种方式，一般 xml 和注解都在用。
 
 课程源代码下载地址：[戳我下载](https://gitee.com/eson15/springboot_study)
-> 欢迎关注我的为微信公众号：武哥聊编程
 
 
 
@@ -2383,7 +2366,6 @@ public class UserServiceImpl implements UserService {
 
 
 课程源代码下载地址：[戳我下载](https://gitee.com/eson15/springboot_study)
-> 欢迎关注我的为微信公众号：武哥聊编程
 
 
 
@@ -2667,7 +2649,6 @@ public String getRequestInfo(HttpServletRequest request) {
 本课系统的介绍了监听器原理，以及在 Spring Boot 中如何使用监听器，列举了监听器的三个常用的案例，有很好的实战意义。最后讲解了项目中如何自定义事件和监听器，并结合微服务中常见的场景，给出具体的代码模型，均能运用到实际项目中去，希望读者认真消化。
 
 课程源代码下载地址：[戳我下载](https://gitee.com/eson15/springboot_study)
-> 欢迎关注我的为微信公众号：武哥聊编程
 
 
 
@@ -2859,7 +2840,6 @@ Controller 中的方法代码可以参见源码，重启项目在浏览器中输
 本节主要介绍了 Spring Boot 中拦截器的使用，从拦截器的创建、配置，到拦截器对静态资源的影响，都做了详细的分析。Spring Boot 2.0 之后拦截器的配置支持两种方式，可以根据实际情况选择不同的配置方式。最后结合实际中的使用，举了两个常用的场景，希望读者能够认真消化，掌握拦截器的使用。
 
 课程源代码下载地址：[戳我下载](https://gitee.com/eson15/springboot_study)
-> 欢迎关注我的为微信公众号：武哥聊编程
 
 
 
@@ -3162,7 +3142,6 @@ public class Course14ApplicationTests {
 本节主要介绍了 redis 的使用场景、安装过程，以及 Spring Boot 中集成 redis 的详细步骤。在实际项目中，通常都用 redis 作为缓存，在查询数据库的时候，会先从 redis 中查找，如果有信息，则从 redis 中取；如果没有，则从数据库中查，并且同步到 redis 中，下次 redis 中就有了。更新和删除也是如此，都需要同步到 redis。redis 在高并发场景下运用的很多。
 
 课程源代码下载地址：[戳我下载](https://gitee.com/eson15/springboot_study)
-> 欢迎关注我的为微信公众号：武哥聊编程
 
 
 
@@ -3447,7 +3426,6 @@ public class TopicConsumer1 {
 本章主要介绍了 jms 和 activemq 的相关概念、activemq 的安装与启动。详细分析了 Spring Boot 中点对点消息和发布/订阅消息两种方式的配置、消息生产和消费方式。ActiveMQ 是能力强劲的开源消息总线，在异步消息的处理上很有用，希望大家好好消化一下。
 
 课程源代码下载地址：[戳我下载](https://gitee.com/eson15/springboot_study)
-> 欢迎关注我的为微信公众号：武哥聊编程
 
 
 
@@ -3837,7 +3815,6 @@ public class UserController {
 本节主要介绍了 Shiro 安全框架与 Spring Boot 的整合。先介绍了 Shiro 的三大核心组件已经它们的作用；然后介绍了 Shiro 的身份认证、角色认证和权限认证；最后结合代码，详细介绍了 Spring Boot 中是如何整合 Shiro 的，并设计了一套测试流程，逐步分析 Shiro 的工作流程和原理，让读者更直观地体会出 Shiro 的整套工作流程。Shiro 使用的很广泛，希望读者将其掌握，并能运用到实际项目中。
 
 课程源代码下载地址：[戳我下载](https://gitee.com/eson15/springboot_study)
-> 欢迎关注我的为微信公众号：武哥聊编程
 
 
 
@@ -4311,7 +4288,6 @@ public class IndexController {
 本节课首先详细的分析了全文检索的理论规则，然后结合 Lucene，系统的讲述了在 Spring Boot 的集成步骤，首先快速带领大家从直观上感受 Lucene 如何建立索引已经如果检索，其次通过中文检索的具体实例，展示了 Lucene 在全文检索中的广泛应用。Lucene 不难，主要就是步骤比较多，代码不用死记硬背，拿到项目中根据实际情况做对应的修改即可。
 
 课程源代码下载地址：[戳我下载](https://gitee.com/eson15/springboot_study)
-> 欢迎关注我的为微信公众号：武哥聊编程
 
 
 
@@ -4456,7 +4432,7 @@ public class SwaggerConfig {
                 // 设置页面标题
                 .title("Spring Boot搭建实际项目中开发的架构")
                 // 设置接口描述
-                .description("跟武哥一起学Spring Boot第18课")
+                .description("学习Spring Boot第18课")
                 // 设置联系方式
                 .contact("倪升武，" + "微信公众号：程序员私房菜")
                 // 设置版本
